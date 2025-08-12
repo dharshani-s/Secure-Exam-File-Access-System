@@ -13,7 +13,7 @@ A high-security file access system for academic exams with:
 5. **Faculty** runs `decrypt.py` → enters TOTP (from authenticator) & password → retrieves `decrypted_exam.pdf`.
 
   FILE HIERARCHY OF THE PROJECT:
-SecureExamFileAccessSystem/
+''' SecureExamFileAccessSystem/
 │
 ├── sender_admin/
 │   ├── encrypt.py
@@ -24,7 +24,7 @@ SecureExamFileAccessSystem/
 │   ├── decrypt.py
 │   ├── generatekeys.py
 │   ├── private.pem
-│   ├── decrypted_exam.pdf   # (will be created after decryption)
+│   ├── decrypted_exam.pdf   
 │
 ├── shared/
 │   ├── encrypted_exam.json
@@ -32,4 +32,4 @@ SecureExamFileAccessSystem/
 │
 ├── totp_qr.png
 ├── totp_qr-protected
-├── totp_secret.txt
+├── totp_secret.txt '''
